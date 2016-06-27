@@ -1,0 +1,74 @@
+body
+{
+
+
+}
+.navbar-brand {
+  padding-top: 0px;
+  margin: 10px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #000;
+  
+}
+
+#header-nav {
+  background-color: #000fff;
+  border-radius: 0;
+  border: 0;
+}
+#menu
+{
+
+
+}
+#parent{
+padding:5%;
+padding-top: 20px;
+}
+#content{
+	background-color: #000800;
+	margin: 15px auto 0px;
+	border: 3px solid #008080;
+  color: #ffffff;
+  width: 100%;
+  padding: 15px;
+
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#navbar-collapse-1 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parent{
+padding:10%;
+padding-top: 20px;
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ #parent{
+padding:15%;
+padding-top: 20px;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #parent{
+padding:10%;
+padding-top: 20px;
+}
+  }
